@@ -63,10 +63,14 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-
+.message-box{
+    margin-right: 15px;
+}
 .quote{
     font-size: 1.563rem;
     color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #message{
@@ -75,12 +79,13 @@ h2{
  font-style: italic;
 }
 
-#new-message-generator{
-    font-size: 0.315rem;
+#new-message-generator-btn{
+    font-size: 0.625rem;
     color: #fff;
     background-color: rgb(0, 128, 0);
    padding: 0.625rem 0.625rem;
     border: none;
     border-radius: 15rem;
+    margin-left: 15px;
 
 }
