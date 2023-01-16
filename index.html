@@ -5,10 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta http-equiv="X-UA-compatible" content="IE=Edge">
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
       <link rel="stylesheet" href="style.css">
       
     </head>
     <body>
+        <!--The digital clock-->
         <h2>Digital Clock</h2>
         <div class="clock">
             <div>
@@ -27,6 +29,12 @@
                 <span id="ampm">AM</span>
                 
             </div>
+        </div>
+        <!--Message generator-->
+        <div class="message-container">
+            <div class="message-box"><h4 id="message"><blockquote><ion-icon name="quote" class="quote"></ion-icon>The journey of 
+                thousand miles begin with step.<ion-icon name="quote" class="quote"></ion-icon></blockquote></h4></div>
+            <div class="btn-box"><button type="button" id="new-message-generator">New Message</button></div>
         </div>
         <script src="script.js"></script>
     </body>
