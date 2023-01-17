@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-position: center;
 }
-
+/* the clock heading */
 h2{
     text-transform: uppercase;
     letter-spacing: 0.4rem;
@@ -17,16 +17,16 @@ h2{
     text-align: center;
     color:#fff;
 }
-
+/* digital clock container */
 .clock{
     display: flex;  
 }
-
+ /* hour,minute and second container */
 .clock div{
     margin: 0.5rem;
     position: relative;
 }
-
+/* clock info box */
 .clock span{
     width: 10rem;
     height: 8rem;
@@ -39,7 +39,7 @@ h2{
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-
+/* clock text */
 .clock .text{
     height: 3rem;
     font-size: 1rem;
@@ -47,6 +47,7 @@ h2{
     letter-spacing: 0.2rem;
     background-color: darkblue;
 }
+/* AM and PM */
 .clock #ampm{
     bottom: 0;
     position:absolute;
@@ -57,28 +58,51 @@ h2{
 }
 
 /* MESSAGE GENERATOR */
+/* message container */
 .message-container{
     display: flex;
     margin-top: 3.125rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
-.message-box{
-    margin-right: 15px;
-}
-.quote{
-    font-size: 1.563rem;
-    color: #fff;
-    margin-left: 15px;
-    margin-right: 15px;
-}
+/* quotes container */
 
+.message-box{
+    padding-right: 60px;
+    padding-left:  60px;
+}
+/* quotes generator button container */
+.btn-box{
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+}
+   /* left  quote icon */
+
+ .fa-quote-left{
+    font-size: 2rem;
+    color: #a8a8a8;
+    float: left;
+   
+}
+/* right quote icon */
+.fa-quote-right{
+    font-size: 2rem;
+    color: #a8a8a8;
+    float: right;
+    
+    
+   
+}
+/* text between the quotation marks */
 #message{
-    font-size: 1.563rem;
+    font-size: 1.63rem;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
  font-style: italic;
+ color: #ffffff;
 }
-
+ /*  quote genrator button */
 #new-message-generator-btn{
     font-size: 0.625rem;
     color: #fff;
@@ -88,4 +112,10 @@ h2{
     border-radius: 15rem;
     margin-left: 15px;
 
+}
+
+/* footer*/
+footer{
+   position: absolute;
+   bottom: 2%;
 }

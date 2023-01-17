@@ -5,26 +5,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta http-equiv="X-UA-compatible" content="IE=Edge">
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-      <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c11db86888.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./style.css">
       
     </head>
     <body>
         <!--The digital clock-->
         <h2>Digital Clock</h2>
+        <!--digital clock container-->
         <div class="clock">
+            <!--Hour container-->
             <div>
                 <span id="hour">00</span>
                 <span class="text">Hour</span>
             </div>
+            <!--Miniute container-->
             <div>
                 <span id="minutes">00</span>
                 <span class="text">Minutes</span>
             </div>
+            <!--Second container-->
             <div>
                 <span id="seconds">00</span>
                 <span class="text">Seconds</span>
             </div>
+            <!--AM PM attribute-->
             <div>
                 <span id="ampm">AM</span>
                 
@@ -32,10 +37,20 @@
         </div>
         <!--Message generator-->
         <div class="message-container">
-            <div class="message-box"><blockquote><ion-icon name="quote" class="quote"></ion-icon><The id="message">The journey of 
-                thousand miles begin with step.</h4><ion-icon name="quote" class="quote"></ion-icon></blockquote></div>
-            <div class="btn-box"><button type="button" id="new-message-generator-btn">New</button></div>
+            <!--Quotes container-->
+            <div class="message-box">
+                <i class="fa-sharp fa-solid fa-quote-left"></i><p id="message">The journey of 
+                thousand miles begin with one step.</p><i class="fa-sharp fa-solid fa-quote-right"></i>
+            </div>
+            <!--Button container-->
+            <div class="btn-box">
+                <button type="button" 
+            id="new-message-generator-btn" onclick="randomMessage()">New</button>
         </div>
-        <script src="script.js"></script>
+        </div>
+        <!--Copyright and Author-->
+        <footer>&copy;.All right reserved.By Paul Koumedzro</footer>
+        <!--Javascript-->
+        <script src="./script.js"></script>
     </body>
 </html>
