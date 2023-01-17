@@ -42,7 +42,8 @@ const messages = ['The journey of thousands miles begin with one step  —Lao Zh
 'If people are doubting how far you can go, go so far that you cannot hear them anymore.” —Michele Ruiz',
 'Do what you feel in your heart to be right―for you will be criticized anyway. ―Eleanor Roosevelt',
 'You can either experience the pain of discipline or the pain of regret. The choice is yours.'
-,'Impossible is just an opinion. —Paulo Coelho'];
+,'Impossible is just an opinion. —Paulo Coelho','Magic is believing in yourself. If you can make that happen, you can make anything happen. —Johann Wolfgang Von Goethe'
+,'If something is important enough, even if the odds are stacked against you, you should still do it. —Elon Musk'];
 
 
 
