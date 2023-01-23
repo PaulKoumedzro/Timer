@@ -9,6 +9,9 @@
  # How to Use the Project?
  -To use the project, you must first download the zip to your computer,extract it and open it in your text editor.You also need to buy a domain name if you choose to host and launch it.
  
+# Can I see the live project?
+ Of course yes. The live website can be access here: https://paulkoumedzro.github.io/Timer/
+ 
  # Credit
  - I have follow a tuorial on youtube which helped me in building this project and all thanks to Javascript King. You can checkout his youtube channel if you want to learn javascript by building practical projects.
 
